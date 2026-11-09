@@ -1,0 +1,11 @@
+# clasp: contains the script ID of a specific deployment
+.clasp.json
+.clasprc.json
+
+# Dependencies and editor files
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

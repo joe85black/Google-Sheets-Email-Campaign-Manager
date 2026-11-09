@@ -1,0 +1,20 @@
+{
+  "name": "google-sheets-email-campaign-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turn a Google Sheet into a personalized email campaign manager, built on Google Apps Script.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "check": "npm run lint && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.14.0"
+  }
+}

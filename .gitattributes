@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Apps Script files are JavaScript; show them as such in GitHub's language stats.
+*.gs linguist-language=JavaScript

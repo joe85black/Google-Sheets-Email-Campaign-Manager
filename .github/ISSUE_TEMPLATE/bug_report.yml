@@ -1,0 +1,54 @@
+name: Bug report
+description: Something isn't working as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem.
+        **Do not include real email addresses, names, or other personal data** from your sheet.
+        Security issues should be reported privately; see SECURITY.md.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Set G1 to ...
+        2. Choose Campaign → Start campaign
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or execution log
+      description: From the alert, or Extensions → Apps Script → Executions. Redact personal data.
+      render: text
+
+  - type: dropdown
+    id: account
+    attributes:
+      label: Account type
+      options:
+        - Consumer Gmail
+        - Google Workspace
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: Installation method
+      options:
+        - Copy and paste
+        - clasp

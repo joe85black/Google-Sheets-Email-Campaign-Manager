@@ -1,0 +1,4 @@
+Sent,Your data,Email,First name,,Sender address →,you@example.com
+FALSE,1001,jane@example.com,Jane,,Template subject →,"{{first_name}}, your application update"
+FALSE,1002,sam@example.com,Sam,,Sender name →,Jane Doe - Acme Co.
+FALSE,1003,alex@example.com,,,,
